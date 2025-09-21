@@ -11,8 +11,6 @@ function updateStack() {
   current = (current + 1) % images.length;
 }
 
-// Initialize stack
 updateStack();
 
-// Auto cycle every 3 seconds
-setInterval(updateStack, 1000);
+setInterval(updateStack, 2000);
